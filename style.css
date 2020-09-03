@@ -525,16 +525,16 @@ h4 {
   border-color: #364577 !important;
 }
 .bg-dots-bg {
-  background-image: url(img/dots-bg.png);
+  background-image: url(img/dots-background.png);
 }
 .bg-lines-h2-bg {
-  background-image: url(img/lines-h2-bg.png);
+  background-image: url(img/lines-background.png);
 }
 .bg-banniere {
   background-image: url(img/la-chouette-agence-banniere.jpg);
 }
 .bg-presentation {
-  background-image: url(img/image-de-presentation.jpg);
+  background-image: url(img/la-chouette-agence-presentation.jpg);
 }
 .quote {
   font-size: 2.2rem;
