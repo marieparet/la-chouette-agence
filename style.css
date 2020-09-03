@@ -312,11 +312,13 @@ button {
 .scrollToTop span {
   margin-top: 6px;
 }
+
 a[data-lightbox] {
   position: relative;
   display: block;
   text-align: center;
 }
+
 a[data-lightbox]:hover::before {
   content: "+";
   font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue",
@@ -340,6 +342,12 @@ a[data-lightbox]:hover img {
   -webkit-animation-fill-mode: none;
   animation-fill-mode: none;
 }
+
+#lightbox-modal {
+  display: flex;
+  align-items: center;
+}
+
 .lightbox-caption {
   padding: 20px;
   color: #fff;
@@ -360,8 +368,33 @@ a[data-lightbox]:hover img {
   opacity: 0.3;
 }
 
-.close-lightbox:hover {
+.close-lightbox:hover,
+.next-lightbox:hover,
+.prev-lightbox:hover {
   opacity: 1;
+  color: #fff;
+}
+
+.next-lightbox,
+.prev-lightbox {
+  font-size: 20px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  transition: all 0.2s ease-in-out;
+  position: absolute;
+  top: 45%;
+  z-index: 1;
+  opacity: 0.3;
+}
+
+.next-lightbox {
+  padding: 6px 8px 1px 13px;
+  right: 25px;
+}
+
+.prev-lightbox {
+  padding: 6px 13px 1px 10px;
+  left: 25px;
 }
 
 .snapshot-lb .lightbox-caption {
@@ -440,6 +473,8 @@ h4 {
 }
 .portfolio-thumb {
   margin-bottom: 24px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .portfolio-row {
   margin-bottom: 44px;
