@@ -68,7 +68,7 @@ a:hover {
 }
 .texture-paper::before {
   background: url(img/texture-paper.png);
-  background-size: 280px 280px;
+  background-size: 50px;
 }
 .b-parallax {
   background-attachment: fixed;
@@ -604,9 +604,7 @@ a[data-lightbox]:focus img {
   color: #364577 !important;
   border-color: #364577 !important;
 }
-.bg-dots-bg {
-  background-image: url(img/dots-background.png);
-}
+
 .bg-lines-h2-bg {
   background-image: url(img/lines-background.png);
 }
@@ -625,6 +623,7 @@ a[data-lightbox]:focus img {
 }
 .bottom-text {
   font-size: 1.6rem;
+  padding-bottom: 10px;
 }
 @media (max-width: 1024px) {
   .bloc {
