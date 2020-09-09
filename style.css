@@ -684,6 +684,9 @@ a[data-lightbox]:focus img {
     padding-left: 10px !important;
     padding-right: 10px !important;
   }
+  h2 {
+    font-size: 17px;
+  }
   .b-parallax {
     background-attachment: scroll;
   }
@@ -727,6 +730,9 @@ a[data-lightbox]:focus img {
     left: -1px;
     right: -1px;
   }
+  .hero-bloc-text {
+    font-size: 30px;
+  }
   .navbar-collapse {
     padding: 0;
     overflow-x: hidden;
@@ -763,6 +769,20 @@ a[data-lightbox]:focus img {
   }
   form {
     padding: 5px;
+  }
+  .portfolio-row {
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  #bloc-1-hero h1 {
+    font-size: 28px;
+  }
+  .quote {
+    font-size: 1.8rem;
+  }
+  .social {
+    display: flex;
+    justify-content: space-around;
   }
 }
 @media (max-width: 400px) {
