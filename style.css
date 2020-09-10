@@ -615,6 +615,9 @@ a[data-lightbox]:focus img {
 .bg-presentation {
   background-image: url(img/la-chouette-agence-presentation.jpg);
 }
+.italic {
+  font-style: italic;
+}
 .quote {
   font-size: 2.2rem;
   color: #616161;
