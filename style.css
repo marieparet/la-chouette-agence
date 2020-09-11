@@ -627,8 +627,8 @@ a[data-lightbox]:focus img {
   font-size: 2.2rem;
   color: #616161;
 }
-.quote span {
-  font-size: 1.5rem;
+blockquote {
+  color: #616161;
 }
 .bottom-text {
   font-size: 1.6rem;
