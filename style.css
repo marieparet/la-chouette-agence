@@ -308,7 +308,7 @@ a:hover {
 
 .btn-d:hover {
   color: #fff;
-  background: rgba(42, 42, 42, 0.8);
+  background: rgba(42, 42, 42, 0.9);
 }
 button {
   outline: 0 !important;
@@ -339,6 +339,9 @@ button {
   box-shadow: 0 0 2px #ccc;
 }
 .scrollToTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 40px;
   height: 40px;
   position: fixed;
@@ -347,6 +350,9 @@ button {
   opacity: 0;
   z-index: 500;
   transition: all 0.3s ease-in-out;
+}
+.showScrollTop {
+  opacity: 0.5;
 }
 .scrollToTop span {
   margin-top: 6px;
@@ -417,6 +423,7 @@ a[data-lightbox]:hover img {
 .next-lightbox,
 .prev-lightbox {
   font-size: 20px;
+  padding: 6px;
   color: #fff;
   background: rgba(0, 0, 0, 0.5);
   transition: all 0.2s ease-in-out;
@@ -427,12 +434,10 @@ a[data-lightbox]:hover img {
 }
 
 .next-lightbox {
-  padding: 6px 8px 1px 13px;
   right: 25px;
 }
 
 .prev-lightbox {
-  padding: 6px 13px 1px 10px;
   left: 25px;
 }
 
@@ -574,7 +579,7 @@ a[data-lightbox]:focus img {
   color: #fff !important;
 }
 .btn-atomic-tangerine:hover {
-  background: #c27956 !important;
+  background: #f27949 !important;
   color: #fff !important;
 }
 .ltc-white {
@@ -628,6 +633,14 @@ a[data-lightbox]:focus img {
 .bottom-text {
   font-size: 1.6rem;
   padding-bottom: 10px;
+}
+.arrow-up {
+  height: 40px;
+  width: 40px;
+}
+.arrow-left, .arrow-right {
+  height: 30px;
+  width: 30px;
 }
 @media (max-width: 1024px) {
   .bloc {
