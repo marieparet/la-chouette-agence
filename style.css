@@ -711,6 +711,10 @@ a[data-lightbox]:focus img {
     border-top: 1px solid rgba(0, 0, 0, 0.2);
     float: none !important;
   }
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
   .navbar.row {
     margin-left: 0;
     margin-right: 0;
