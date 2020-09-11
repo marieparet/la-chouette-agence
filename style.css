@@ -614,17 +614,11 @@ a[data-lightbox]:focus img {
 .bg-lines-h2-bg {
   background-image: url(img/lines-background.png);
 }
-.no-webp .bg-banniere {
+.bg-banniere {
   background-image: url(img/la-chouette-agence-banniere.jpg);
 }
-.webp .bg-banniere {
-  background-image: url(img/la-chouette-agence-banniere.webp);
-}
-.no-webp .bg-presentation {
+.bg-presentation {
   background-image: url(img/la-chouette-agence-presentation.jpg);
-}
-.webp .bg-presentation {
-  background-image: url(img/la-chouette-agence-presentation.webp);
 }
 .italic {
   font-style: italic;
