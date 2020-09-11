@@ -620,8 +620,11 @@ a[data-lightbox]:focus img {
 .webp .bg-banniere {
   background-image: url(img/la-chouette-agence-banniere.webp);
 }
-.bg-presentation {
+.no-webp .bg-presentation {
   background-image: url(img/la-chouette-agence-presentation.jpg);
+}
+.webp .bg-presentation {
+  background-image: url(img/la-chouette-agence-presentation.webp);
 }
 .italic {
   font-style: italic;
