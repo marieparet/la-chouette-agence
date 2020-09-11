@@ -614,8 +614,11 @@ a[data-lightbox]:focus img {
 .bg-lines-h2-bg {
   background-image: url(img/lines-background.png);
 }
-.bg-banniere {
+.no-webp .bg-banniere {
   background-image: url(img/la-chouette-agence-banniere.jpg);
+}
+.webp .bg-banniere {
+  background-image: url(img/la-chouette-agence-banniere.webp);
 }
 .bg-presentation {
   background-image: url(img/la-chouette-agence-presentation.jpg);
