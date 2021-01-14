@@ -1,11 +1,4 @@
-# Optimize an existing website
-
-
-## Getting started
-
-```
-
-```
+# Optimization of an existing website
 
 ## What is this project ?
 
