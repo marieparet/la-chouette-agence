@@ -13,7 +13,7 @@ This project helped me grasps the concept of SEO, Accessibility, Performance and
 ## The results 
 
 Before :
-<img src="img/before_results.png" alt="Résultats lighthouse du site initial" width="50" />
+<img src="img/before_results.png" alt="Résultats lighthouse du site initial" width="400" />
 
 After :
-<img src="img/after_results.png" alt="Résultats lighthouse du site optimisé" />
+<img src="img/after_results.png" alt="Résultats lighthouse du site optimisé" width="400" />
