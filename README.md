@@ -18,10 +18,12 @@ This project helped me grasps the concept of SEO, Accessibility, Performance and
 <img src="img/before_results.png" alt="Résultats lighthouse du site initial" width="400" />
 
 - Overall look :  
-<img src="img/desktop_before.png" alt="Aspect général du site initial sur ordinateur" width="400" />
-<img src="img/mobile_before.png" alt="Aspect général du site initial sur mobile" width="400" />
-
+<img src="img/desktop_before.png" alt="Aspect général du site initial sur ordinateur" width="900" />
 
 ### After (optimized website) :  
 
+- Lighthouse results :  
 <img src="img/after_results.png" alt="Résultats lighthouse du site optimisé" width="400" />
+
+- Overall look :  
+<img src="img/desktop_after.png" alt="Aspect général du site optimisé sur ordinateur" width="900" />
