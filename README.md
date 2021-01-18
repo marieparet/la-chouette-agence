@@ -10,12 +10,12 @@ This is the Project number 4 of the OpenClassrooms' Web Developer course, in whi
 
 This project helped me grasps the concept of SEO, Accessibility, Performance and Best Practices, and how to improve them in order to optimize a website.
 
-## The results 
+## The results (Lighthouse tool)
 
-- Before :  
+- Before (initial website) :  
 
 <img src="img/before_results.png" alt="Résultats lighthouse du site initial" width="400" />
 
-- After :  
+- After (optimized website) :  
 
 <img src="img/after_results.png" alt="Résultats lighthouse du site optimisé" width="400" />
